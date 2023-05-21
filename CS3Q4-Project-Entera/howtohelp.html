@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> CLIMATECHANGE_Entera </title>
+		<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device">
+	    <link rel="stylesheet" href="styleshth.css">
+    </head>
+    
+	<body>
+        <header>
+		    <a href="cs3q4proj_entera.html" class="brand">Climate Change</a>
+			<div class="menu-btn"></div>
+			<div class="navigation">
+			    <div class="navigation-items">
+				    <a href="home.html">Home</a>
+					<a href="importance.html">Importance</a>
+					<a href="howtohelp.html">How to Help</a>
+					<a href="fillup.html">Fill-up</a>
+				</div>
+			</div>
+		</header>
+		
+		<div class="howtohelp">
+		    <div class="hth-list1">
+			<h1>How can we Help?</h1>
+			<br></br>
+			<br></br>
+			<img src="image.1.jpeg">
+			<h2> Save Energy! </h2>
+			<p> Coal, oil, and gas are major sources of our country's electricity and heat. 
+			Reduce your heating and cooling, use energy-efficient electric appliances like 
+			LED lights and dishwashers, wash your clothes in cold water, and hang up your 
+			clothes to dry rather than using a dryer. </p>
+			
+			
+			<br></br>
+			<br></br>
+			<br></br>
+			
+			<img src="image.5.jpeg">
+			<h2> Reduce, Reuse, and Recycle! </h2>
+			<p> Every stage of production, from the extraction of raw materials through the 
+			fabrication and delivery of commodities to market, contributes to carbon emissions 
+			in the production of electronics, clothing, and other goods we purchase. Buy fewer 
+			goods, shop secondhand, fix what you can, and recycle as much as you can to conserve 
+			the environment.  </p>
+			
+			<br></br>
+			<br></br>
+			<br></br>
+			
+			<img src="image.2.jpeg">
+			<h2> Eat more Vegetable and Fruits! </h2>
+			<p> Eating more fruits and vegetables, whole grains, legumes, nuts, and seeds while
+			consuming less meat and dairy can have a large positive influence on the environment. 
+			In general, producing plant-based foods uses less energy, water, and land and produces 
+			less greenhouse gas emissions. </p>
+			
+			<br></br>
+			<br></br>
+			<br></br>
+			
+			<img src="image.3.jpeg">
+			<h2> Reduce Food Waste! </h2>
+			<p> When food is wasted, the energy and resources necessary to cultivate, produce, package, 
+			and transport it are also wasted. Additionally, methane, a potent greenhouse gas, is produced 
+			when food spoils in a landfill. Use the items you purchase, then compost the remainder. </p>
+			
+			<br></br>
+			<br></br>
+			<br></br>
+			
+			<img src="image.4.jpg">
+			<h2> Walk, Bike, or Use Non-Gas Vehicles (Electric)! </h2>
+			<p> The majority of the cars and trucks on the road today burn either diesel or gasoline. 
+			Driving less and using a bike or walking will both benefit the environment and improve your 
+			fitness and health. Consider using a bus or train for lengthier trips. </p>
+			
+			
+			</div>
+			
+		</div>
+		
+		<br>
+		<br>
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		<script type="text/javascript">
+		const menuBtn = document.querySelector(".menu-btn");
+        const navigation = document.querySelector(".navigation");
+		
+        menuBtn.addEventListener("click", () => {
+	    menuBtn.classList.toggle("active");
+		navigation.classList.toggle("active");
+        });
+		
+		const btns = document.querySelectorAll(".nav-btn");
+		
+		var sliderNav = function(manual){
+		    btns.forEach((btn) => {
+			    btn.classList.remove("active");
+				});
+			
+		    btns[manual].classList.add("active");
+		}
+		
+		btns.forEach((btn, i) => {
+		    btn.addEventListener("click", () => {
+			    sliderNav(i);
+			});
+		});
+		
+		
+		
+		
+        </script>
+
+			
+				
+			
+		
+					
+		
+		
+		
+	</body>
