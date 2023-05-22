@@ -123,7 +123,7 @@ header .navigation .navigation-items a:hover:before{
     }
 		
 	.menu-btn{
-		background: url(menubtn.png)no-repeat;
+		background: url(https://github.com/YanaSav/Climate-Change/assets/115935576/04fddecc-dc0b-47ca-8a72-ed85b983d370)no-repeat;
 		background-size: 30px;
 		background-position: center;
 		width: 40px;
@@ -134,7 +134,7 @@ header .navigation .navigation-items a:hover:before{
 	
 	.menu-btn.active{
 		z-index: 999;
-		background: url(menubtnclose.jpg)no-repeat;
+		background: url(https://github.com/YanaSav/Climate-Change/assets/115935576/ddc0f40a-de82-4f8c-87d8-70e62ee67534)no-repeat;
 		background-size: 25px;
 		background-position: center;
 		transition: 0.5 ease;
